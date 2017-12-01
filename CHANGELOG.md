@@ -1,5 +1,23 @@
 # node-midi Changelog
 
+## Version 0.9.6
+
+* Added `isPortOpen()` to Input and Output
+* Added Boolean return values to `openPort()`, `openVirtualPort()`, `closePort()`
+* Added JACK Audio support
+* Added error catching to vital areas that would otherwise crash the host program
+* Updated Readme for ES6 Code samples
+
+## Version 0.9.5
+
+* Added Node 6.2 to Travis
+* Updated RtMidi to most recent version
+
+## Version 0.9.4 
+
+* Upgrade NAN to v2.0
+* Call cancelCallback when closing port
+
 ## Version 0.9.3
 
 * Update NAN version for iojs 2.x support. (Ilkka Myller)
